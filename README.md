@@ -28,3 +28,12 @@ Replay to all the comments you have received, and again commit the updated chang
 
 Once the code has been merged successfully, it can be deleted.
 
+## Smart Commits with Jira & GitHub
+```
+git add . // stage changed files
+git commit -m "<jira task id(ISSUE_KEY)> #commit <commit message>"
+```
+Example
+```
+git commit -m "JHD-33 #commit tested smart commit
+```
